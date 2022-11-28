@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li{
+  float:left;
+  border-right: 1px solid #bbb
+}
+
+li:last-child{
+  border-right: none;
+}
+
+li a{
+  display: block;
+  color: brown;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active){
+  background-color: mediumaquamarine;
+}
+
+
+p.solid {border-style: solid; border-color: black; text-align: center;}
+p.solid2 {border-style: solid; border-color: black;}
+
+.PDE {
+  float: left;
+}
